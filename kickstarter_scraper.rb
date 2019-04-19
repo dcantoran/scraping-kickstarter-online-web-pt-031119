@@ -8,7 +8,7 @@ def create_project_hash
   result = {}
   kickstarter = Nokogiri::HTML(html)
   
-  kickstarter.each do ||
+  kickstarter.each do |project|
     
   end 
   
